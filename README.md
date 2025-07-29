@@ -1,4 +1,5 @@
 🌤️ WeatherWise :
+
    WeatherWise is a simple and smart weather advisor app built with Node.js. It provides users with real-time weather updates and helpful advice based on the current weather in 
    their selected city.
 
@@ -10,7 +11,7 @@
   - Understand the flow of client-server interaction using Express and EJS.
   - Practice full-stack development using Node.js, Express.js, and template rendering.
 
-🚀 Features: 
+🚀 Features : 
 
   - Weather Advisory: Provides current weather data (temperature, condition) and helpful suggestions.
   - Search for any city worldwide.
@@ -18,7 +19,7 @@
   - Uses OpenWeatherMap API.
   - Clean UI using EJS templates, HTML, and CSS.
 
-🛠️ Tech Stack
+🛠️ Tech Stack : 
   - Node.js
   - Express.js
   - EJS 
@@ -47,7 +48,7 @@
 
   4- Add Your API Key
      Open the file named index.js in a code editor. Find the line:
-     const API_KEY = "your_actual_api_key_here";
+     const API_KEY = "e400....";
      and replace "your_actual_api_key_here" with your real API key from OpenWeatherMap.
 
   5- Run the Application
@@ -61,5 +62,7 @@
 
 📸Screenshot :
 
+![WeatherWise Initial Screen](public/imgs/img1.png)
+![WeatherWise Example Search](public/imgs/img2.png)
 
 
