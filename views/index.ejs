@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>What to Wear Weather</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🌤️ What to Wear Weather</h1>
+    <form action="/" method="POST">
+      <input type="text" name="city" placeholder="Enter your city..." required />
+      <button type="submit">Check</button>
+    </form>
+
+    <% if (error) { %>
+      <p class="error"><%= error %></p>
+    <% } else if (weather) { %>
+      <p class="weather"><%= weather %></p>
+      <p class="tip"><%= tip %></p>
+    <% } %>
+  </div>
+</body>
+</html>
